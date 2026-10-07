@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import BrochureModal from './components/BrochureModal';
 import ParticleCanvas from './components/ParticleCanvas';
 import ScrollToTop from './components/ScrollToTop';
+import CustomCursor from './components/CustomCursor';
 
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -27,6 +28,9 @@ export default function App() {
     <BrowserRouter>
       {/* Scroll restoration helper */}
       <ScrollToTop />
+
+      {/* Cyber Glassmorphic Interactive Custom Cursor */}
+      <CustomCursor />
 
       <div className="min-h-screen bg-[#020509] text-slate-100 flex flex-col selection:bg-cyan-500/30 selection:text-cyan-200 relative">
         
