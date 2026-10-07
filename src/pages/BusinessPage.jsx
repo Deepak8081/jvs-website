@@ -231,13 +231,12 @@ export default function BusinessPage({ onOpenBrochure }) {
             {/* Headline */}
             <motion.h1 
               variants={itemVariants}
-              className="font-heading font-bold text-white leading-tight"
-              style={{ fontSize: 'clamp(2.5rem, 5.5vw, 4.2rem)', letterSpacing: '-0.025em' }}
+              className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-extrabold text-white tracking-tight leading-[1.12]"
             >
               JVS Business Group{' '}
               <span 
                 style={{
-                  background: 'linear-gradient(135deg, #38bdf8, #7dd3fc 45%, #818cf8)',
+                  background: 'linear-gradient(135deg, #38bdf8 0%, #7dd3fc 45%, #818cf8 100%)',
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
                   backgroundClip: 'text'
@@ -250,7 +249,7 @@ export default function BusinessPage({ onOpenBrochure }) {
             {/* Subtitle */}
             <motion.p 
               variants={itemVariants}
-              className="text-lg sm:text-2xl font-semibold text-cyan-300/90 font-heading"
+              className="text-base sm:text-xl font-medium text-cyan-300 tracking-wide"
             >
               6 Diversified Pillars of Versatile Stability
             </motion.p>

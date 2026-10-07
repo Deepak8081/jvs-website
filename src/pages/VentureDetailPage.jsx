@@ -706,8 +706,7 @@ export default function VentureDetailPage({ onOpenBrochure }) {
 
                 <motion.h1 
                   variants={itemVariants}
-                  className="font-heading font-bold text-white leading-tight"
-                  style={{ fontSize: 'clamp(2.4rem, 5vw, 4rem)', letterSpacing: '-0.025em' }}
+                  className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-extrabold text-white tracking-tight leading-[1.12]"
                 >
                   {venture.name}
                 </motion.h1>

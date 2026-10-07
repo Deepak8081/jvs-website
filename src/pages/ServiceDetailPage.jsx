@@ -868,15 +868,12 @@ export default function ServiceDetailPage({ onOpenBrochure }) {
               </div>
 
               {/* Title */}
-              <h1 
-                className="font-heading font-black text-white leading-tight"
-                style={{ fontSize: 'clamp(2.4rem, 4.5vw, 3.8rem)', letterSpacing: '-0.025em' }}
-              >
+              <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-[1.15]">
                 {service.title}
               </h1>
 
               {/* Tagline */}
-              <p className="text-base sm:text-lg font-medium text-cyan-300 font-heading">
+              <p className="text-base sm:text-lg font-semibold text-cyan-300 tracking-wide">
                 “{service.tagline}”
               </p>
 

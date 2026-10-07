@@ -65,8 +65,7 @@ export default function PerspectivesSection() {
 
           <motion.h2 
             variants={itemVariants}
-            className="font-heading font-bold text-white leading-tight"
-            style={{ fontSize: 'clamp(2.2rem, 4.5vw, 3.5rem)', letterSpacing: '-0.025em' }}
+            className="font-heading font-bold text-white text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight"
           >
             Our{' '}
             <span 

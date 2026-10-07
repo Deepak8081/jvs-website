@@ -62,10 +62,7 @@ export default function ContactSection() {
             <span>Connect with JVS</span>
           </div>
 
-          <h2 
-            className="font-heading font-bold text-white leading-tight"
-            style={{ fontSize: 'clamp(2.2rem, 4.5vw, 3.5rem)', letterSpacing: '-0.025em' }}
-          >
+          <h2 className="font-heading font-bold text-white text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight">
             Let's Create What{' '}
             <span 
               style={{

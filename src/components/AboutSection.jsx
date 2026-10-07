@@ -105,8 +105,7 @@ export default function AboutSection() {
           className="max-w-3xl space-y-3.5 mb-10 sm:mb-12"
         >
           <motion.div variants={inView}><SectionLabel>Corporate Philosophy</SectionLabel></motion.div>
-          <motion.h2 variants={inView} className="font-heading font-bold text-white leading-tight"
-            style={{ fontSize: 'clamp(2.2rem, 4.5vw, 3.5rem)', letterSpacing: '-0.025em' }}>
+          <motion.h2 variants={inView} className="font-heading font-bold text-white text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight">
             About{' '}
             <span style={{
               background: 'linear-gradient(135deg, #38bdf8, #7dd3fc 50%, #818cf8)',
@@ -137,8 +136,7 @@ export default function AboutSection() {
                 style={{ background: 'rgba(34,211,238,0.12)', border: '1px solid rgba(34,211,238,0.3)', color: '#22d3ee' }}>
                 Core Purpose & Commitment
               </span>
-              <h3 className="font-heading font-bold text-white leading-snug"
-                style={{ fontSize: 'clamp(1.3rem, 2.5vw, 1.9rem)' }}>
+              <h3 className="font-heading font-bold text-white text-xl sm:text-2xl lg:text-3xl leading-snug tracking-tight">
                 “{brochureContent.brand.purposeStatement}”
               </h3>
               <p className="text-sm sm:text-base leading-relaxed text-slate-300 font-normal">

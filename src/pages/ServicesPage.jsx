@@ -363,13 +363,12 @@ export default function ServicesPage({ onOpenBrochure }) {
             {/* Main Headline */}
             <motion.h1 
               variants={itemVariants}
-              className="font-heading font-bold text-white leading-tight"
-              style={{ fontSize: 'clamp(2.4rem, 5vw, 4rem)', letterSpacing: '-0.025em' }}
+              className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-extrabold text-white tracking-tight leading-[1.12]"
             >
               End-to-End Capabilities Built for{' '}
               <span 
                 style={{
-                  background: 'linear-gradient(135deg, #38bdf8, #7dd3fc 45%, #818cf8)',
+                  background: 'linear-gradient(135deg, #38bdf8 0%, #7dd3fc 45%, #818cf8 100%)',
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
                   backgroundClip: 'text'
@@ -761,8 +760,7 @@ export default function ServicesPage({ onOpenBrochure }) {
             </div>
 
             <h2 
-              className="font-heading font-bold text-white leading-tight"
-              style={{ fontSize: 'clamp(2rem, 4vw, 3.2rem)' }}
+              className="font-heading font-extrabold text-white text-2xl sm:text-3xl lg:text-4xl tracking-tight leading-tight"
             >
               Our 4-Step{' '}
               <span 

@@ -58,8 +58,7 @@ export default function VenturesShowcase({ onOpenContact }) {
               <span>Group Portfolio</span>
             </div>
           </motion.div>
-          <motion.h2 variants={itemVariants} className="font-heading font-bold text-white leading-tight"
-            style={{ fontSize: 'clamp(2.2rem, 4.5vw, 3.5rem)', letterSpacing: '-0.025em' }}>
+          <motion.h2 variants={itemVariants} className="font-heading font-bold text-white text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight">
             Our{' '}
             <span style={{
               background: 'linear-gradient(135deg, #38bdf8, #7dd3fc 50%, #818cf8)',

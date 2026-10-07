@@ -142,13 +142,12 @@ export default function AboutPage({ onOpenBrochure }) {
             {/* Headline */}
             <motion.h1 
               variants={itemVariants}
-              className="font-heading font-bold text-white leading-tight"
-              style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', letterSpacing: '-0.025em' }}
+              className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-extrabold text-white tracking-tight leading-[1.12]"
             >
               About{' '}
               <span 
                 style={{
-                  background: 'linear-gradient(135deg, #38bdf8, #7dd3fc 45%, #818cf8)',
+                  background: 'linear-gradient(135deg, #38bdf8 0%, #7dd3fc 45%, #818cf8 100%)',
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
                   backgroundClip: 'text'
@@ -156,7 +155,7 @@ export default function AboutPage({ onOpenBrochure }) {
               >
                 JVS
               </span>
-              <span className="text-xl sm:text-2xl text-slate-300 font-medium block mt-1 font-sans tracking-normal">
+              <span className="text-lg sm:text-2xl text-slate-300 font-medium block mt-1 tracking-normal">
                 (Jyoshna's Versatile Stability)
               </span>
             </motion.h1>
